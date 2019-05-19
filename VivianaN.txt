@@ -1,4 +1,10 @@
-En este repositorio se hará un breve análisis sobre lo que se realizará del proyecto
+En este repositorio se hará un breve resumen sobre lo que se realizará en proyecto
 
-Derivada temporales, ect
+Se utilizará una ecuación diferencial (aún por seleccionarla) con una sola variable dependiente en la cual se hallarán sus respectivas derivadas, se tomarán unas condiciones iniciles y se observará que sucede a través del tiempo.
+
+Se tomará en cuenta el libro Numerical Methods in Engineering with python para estudiar sobre como Derivada temporales y los posibles métodos a utlizar en python para hallarlas. 
+
+Respectivos adelantos
+
+1. Se 
 
