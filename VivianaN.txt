@@ -4,7 +4,32 @@ Se utilizará una ecuación diferencial (aún por seleccionarla) con una sola va
 
 Se tomará en cuenta el libro Numerical Methods in Engineering with python para estudiar sobre como Derivada temporales y los posibles métodos a utlizar en python para hallarlas. 
 
-Respectivos adelantos
+Informe: 
 
-1. Se 
+A partir de que se tenga acceso a un número finito de (x,y) pares de datos los cuales se usan para calcular la derivada. Una forma de encontrar la derivada es aproximar la función localmente por un polinomio y luego diferenciarlo o otra herramientos es la expansión de la serie de Taylor de f(x) sobre dicho punto de derivación, además una de las ventajas de estos métodos es la información que proporciona del error.
+ 
+Hallazgo de las primeras derivadas
+
+f'(x)=((f(x+h)-f(x-h))/2h)+o(2h) llamada la primera diferenciación aproximada para f'(x)
+
+Donde o(h^{2}) es el error. 
+
+f''(x)=((f(x+h)-2f(x)+f(x-h))/2h)+o(h^{2})
+
+Así con cada derivada, estas formulas se pueden utilizar si se tiene un número finito de datos o de puntos
+
+Además la extrapolación de Richardson puede eliminar el error, si tiene la forma de E(h)=c(h)^{p} siendo c y p constantes
+
+DERIVADAS POR INTERPOLACIÓN
+
+Si f(x) se da como un conjunto de puntos de datos discretos, la idea será aproximar la derivada de f(x) por el derivado del interpolante, la idea es ajustar el polinomio de grado n, a través de n+1 puntos de dagtos y luego evaluar las derivada en la x dada, se limita el polinomio a menos de grado seis para evitar oscilaciones espurias del interpolante.
+
+Una posible interpolante global a utilizar es Cubic Spline (analizar formula dada) pag 192
+
+
+INVESTIGAR:
+1. Métodos de interpolación polinomial sección3.2
+2 Mirar evalpoly sección 4.7
+
+Fuente: Numerical Methos in Engineering with python
 
