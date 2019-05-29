@@ -1,0 +1,8 @@
+En este repositorio se encontrará el reporte del avance en el proyecto.
+
+1. En el PDF se encontrará una introducción al método de diferencias finitas y además de la explicación de la ecuación de calor. Con respecto a la ecuación primero se dio una explicación en donde depende solo x y t, luego en donde x,y,t, estas tienen nombre de 1D y 2D respectivamente.
+
+2. Se realizaron algunos ejemplos en python para irse familiarizando con el método y las funciones dada, estos ejemplos nombre la fuente que es el libro que esta en el repositorio.
+
+3. Se tiene algunas dudas en la realización del código en la ecuación de calor. 
+
