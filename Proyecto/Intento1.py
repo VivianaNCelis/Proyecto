@@ -36,7 +36,7 @@ f= lambda x: 2*x**3
 #Del valores que hay por el método que utiliza
 print(derivative(f,1,dx=1e-6))
 
-
+#
 # In[9]:
 
 
