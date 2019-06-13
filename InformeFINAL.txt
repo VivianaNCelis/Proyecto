@@ -1,3 +1,6 @@
+El objetivo de este trabajo es hacer un modelamiento matemático y simulaciones de la ecuación de calor, la cual describe la evolución térmica de un cuerpo sólido en función del tiempo y del espacio. A continuación se hará una pequeña descripción del avance del trabajo y además unos items del posible trabajo a seguir. 
+
+
 PRIMER AVANCE
 
 1. En el PDF se encontrará una introducción al método de diferencias finitas y además de la explicación de la ecuación de calor. Con respecto a la ecuación primero se dio una explicación en donde depende solo x y t, luego en donde x,y,t, estas tienen nombre de 1D y 2D respectivamente.
@@ -14,7 +17,7 @@ SEGUNDO AVANCE
 
 3. Se pudo realizar tablas en la que apareciera cierta iteración pero cada una de ellas con frontera aleatorias.
 
-TERCER AVANCE
+TERCER AVANCE - FINAL
 
 1. Se complemento el punto(3) del segundo avance para poder ser utilizado en BASH
 
@@ -33,6 +36,8 @@ POSIBLE TRABAJO A SEGUIR
 3. Además empezar a utilizar condiciones de frontera de neumann ya que está vez solo se trabajó con condiciones de frontera Dirichlet.
 
 4. Empezar a implementar esto en el verdadero proyecto de grado.
+
+Ver los respectivos resultados en la carpeta proyecto.
 
 
 
